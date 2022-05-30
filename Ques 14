@@ -1,0 +1,12 @@
+
+D1 = {'emp1': {'name' : 'Jim', 'age' : 26, 'job' : 'developer'}, 
+      'emp2': {'name' : 'Sam', 'age' : 30, 'job' : 'data analyst'}, 
+      'emp3': {'name' : 'Dean', 'age' : 29, 'job' : 'data scientist'}, 
+      'emp4': {'name' : 'Leo', 'age' : 25, 'job' : 'python developer'}}
+ 
+#Actual dictionary
+print("The actual dictionary is:", D1)
+#Change the value of a dictionary
+D1['emp3']['age'] = 24
+#Updated dictionary
+print("The updated dictionary is:", D1)
