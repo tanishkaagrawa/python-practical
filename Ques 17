@@ -1,0 +1,8 @@
+
+D1 = {'Jim': 23, 'Sam': 29, 'Dean': 33, 'Micheal': 40}
+ 
+# Python code to find key with Maximum value in Dictionary
+Key_max = max(D1, key= lambda x: D1[x])
+Key_min = min(D1, key= lambda x: D1[x])
+print("The key with maximum value:", Key_max, ",& corresponding value:", D1[Key_max])
+print("The key with minimum value:", Key_min, ",& corresponding value:", D1[Key_min])
