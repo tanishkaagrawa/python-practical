@@ -1,0 +1,13 @@
+
+D1 = {'Jim': 23, 'Sam Winchester': 29, 'Dean Winchester': 33, 'Micheal': 40}
+ 
+#search substring
+search_string = "Winchester"
+#Actual dictionary
+print("The actual dictionary is:", str(D1))
+ 
+res_string = dict(filter(lambda item: search_string in item[0], D1.items()))
+ 
+#Resultant dictionary
+print("The Key-Value pair for search keys ::", str(res_string))
+ 
