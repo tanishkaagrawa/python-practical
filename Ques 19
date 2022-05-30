@@ -1,0 +1,11 @@
+
+D1 = {'Jim': 23, 'Sam Winchester': 29, 'Dean Winchester': 45, 'Micheal': 40}
+ 
+def getKey(dict_val):
+    for dict_key, value in D1.items():
+         if dict_val == value:
+             return dict_key
+    return "key doesn't exist"
+ 
+print("Get key of value 40:", getKey(40))
+print("Get key of value 20:", getKey(20))
