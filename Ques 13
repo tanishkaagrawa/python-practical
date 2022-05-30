@@ -1,0 +1,12 @@
+List1 = [1, 2, 2, 3, 4, 1, 4, 5, 5, 6, 7, 7]
+def CountOccur(test_list):
+ 
+   # create an empty dictionary
+   res_dict = {}
+   for i in test_list:
+    res_dict[i] = res_dict.get(i, 0) + 1
+   return res_dict
+ 
+# Driver function
+if __name__ == "__main__":
+    print(CountOccur(List1))
