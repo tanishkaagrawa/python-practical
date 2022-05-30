@@ -1,0 +1,7 @@
+
+keys = ['first_name', 'age' , 'job', 'company']
+values = ['Jim', 23, 'developer', 'XYZ']
+ 
+#map using zip()
+D1 = dict(zip(keys, values))
+print(D1)
